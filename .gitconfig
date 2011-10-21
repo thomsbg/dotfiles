@@ -1,0 +1,27 @@
+[user]
+    email = bthomson@whitepages.com
+    name = Blake Thomson
+[push]
+    default = tracking
+[branch]
+    autosetupmerge = true
+[alias]
+    co = checkout
+    ci = commit  # checkin
+    logs = log --pretty --stat
+    logp = log --pretty -p
+    addi = add -i
+    st = status
+    commits-since-master = rev-list --count ^origin/master
+    ff = fastforward
+[color]
+    branch = auto
+    diff = auto
+    interactive = auto
+    status = auto
+    ui = auto
+[core]
+    excludesfile = /home/bthomson/.gitignore
+    pager = less -+$LESS -FRX
+[merge]
+    conflictstyle = diff3
